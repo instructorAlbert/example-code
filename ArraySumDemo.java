@@ -1,4 +1,4 @@
-class ArraySumDemo0
+class ArraySumDemo
 {
   public static void main(String[] args)
   {
@@ -7,7 +7,7 @@ class ArraySumDemo0
 
     for(int i = 0; i < myArrayOfIntegers.length; i++)
     {
-      System.out.println("Value of this element in the arry is: " + myArrayOfIntegers[i] + " and value of sum is " + sum);
+      System.out.println("Value of this element in the array is: " + myArrayOfIntegers[i] + " and value of sum is " + sum);
       sum += myArrayOfIntegers[i];
     }
     System.out.println("Outside the for loop. Sum is: " + sum);
